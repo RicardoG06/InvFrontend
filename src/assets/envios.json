@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Envio Express",
+        "tiempo": "1 a 3 dias",
+        "precio": 15
+    },
+    {
+        "titulo": "Envio Estandar",
+        "tiempo": "4 a 7 dias",
+        "precio": 7
+    },
+    {
+        "titulo": "Recojo en tienda",
+        "tiempo": "Cualquier dia laboral",
+        "precio": 0
+    }
+]

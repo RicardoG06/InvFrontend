@@ -1,0 +1,244 @@
+<app-nav></app-nav>
+
+<main class="cs-page-wrapper">
+    <section class="cs-carousel cs-controls-onhover">
+        <div class="cs-carousel-inner" data-carousel-options=''>
+    
+          <!-- Slide 1 -->
+          <div class="bg-size-cover py-xl-6" style="background-image: url(../../assets/img/ecommerce/home/hero-slider/03.jpg);">
+            <div class="container pt-5 pb-6">
+              <div class="row pb-lg-6">
+                <div class="col-lg-6 offset-lg-1 offset-xl-0 pb-4 pb-md-6">
+                  <h3 class="font-size-lg text-uppercase cs-from-left cs-delay-1">Inventario de la FISI</h3>
+                  <h2 class="display-2 mb-lg-5 pb-3 cs-from-left">Componentes y accesorios</h2>
+                  <div class="mb-4 cs-scale-up cs-delay-2">
+                    <a [routerLink] = "['/productos']" routerLinkActive="active" class="btn btn-outline-primary btn-lg">Ver inventario</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 2 -->
+          <div class="bg-size-cover py-xl-6" style="background-image: url(../../assets/img/ecommerce/home/hero-slider/02.jpg);">
+            <div class="container pt-5 pb-6">
+              <div class="row pb-lg-6">
+                <div class="col-lg-6 offset-lg-1 offset-xl-0 pb-4 pb-md-6">
+                  <h3 class="font-size-lg text-uppercase cs-from-top cs-delay-1">Lo nuevo en</h3>
+                  <h2 class="display-2 mb-lg-5 pb-3 cs-scale-down">Otoño-Invierno 2021</h2>
+                  <div class="mb-4 cs-scale-down cs-delay-2">
+                    <a [routerLink] = "['/productos']" routerLinkActive="active" class="btn btn-outline-primary btn-lg">Ver productos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 3 -->
+          <div class="bg-size-cover py-xl-6" style="background-image: url(../../assets/img/ecommerce/home/hero-slider/01.jpg);">
+            <div class="container pt-5 pb-6">
+              <div class="row pb-lg-6">
+                <div class="col-lg-6 offset-lg-1 offset-xl-0 pb-4 pb-md-6">
+                  <h3 class="font-size-lg text-uppercase cs-from-left cs-delay-1">Lo nuevo en</h3>
+                  <h2 class="display-2 mb-lg-5 pb-3 cs-from-left">Ropa para varón</h2>
+                  <div class="mb-4 cs-scale-up cs-delay-2">
+                    <a [routerLink] = "['/productos']" routerLinkActive="active" class="btn btn-outline-primary btn-lg">Ver productos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 4 -->
+          <div class="bg-size-cover py-xl-6" style="background-image: url(../../assets/img/ecommerce/home/hero-slider/04.jpg);">
+            <div class="container pt-5 pb-6">
+              <div class="row pb-lg-6">
+                <div class="col-lg-6 offset-lg-1 offset-xl-0 pb-4 pb-md-6">
+                  <h3 class="font-size-lg text-uppercase cs-from-top cs-delay-1">Grandes ofertas</h3>
+                  <h2 class="display-2 mb-lg-5 pb-3 cs-scale-down">Ropa de niños</h2>
+                  <div class="mb-4 cs-scale-down cs-delay-2">
+                    <a [routerLink] = "['/productos']" routerLinkActive="active" class="btn btn-outline-primary btn-lg">Ver mas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Pager -->
+        <div class="container position-relative">
+          <div class="row mt-lg-n5">
+            <div class="col-lg-7 col-md-8 col-sm-10 offset-lg-1 offset-xl-0">
+              <div class="position-relative">
+                <div id="pager" class="cs-pager cs-pager-inverse mb-xl-5 pb-5 pb-md-6">
+                  <button type="button" data-nav="0">01</button>
+                  <button type="button" data-nav="1">02</button>
+                  <button type="button" data-nav="2">03</button>
+                  <button type="button" data-nav="3">04</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="container pt-5 pt-lg-0">
+        <div class="cs-carousel cs-nav-outside">
+          <div class="cs-carousel-inner cs-carousel-inner-two" data-carousel-options=''>
+            <!-- Category -->
+            <a [routerLink] = "['/productos']" routerLinkActive="active" class="d-block cs-image-scale cs-heading-highlight text-center">
+              <div class="cs-image-inner mb-3 rounded">
+                <img src="../../assets/img/ecommerce/home/categories/01.jpg" alt="Women’s">
+              </div>
+              <h3 class="h5 mb-1">Computadoras</h3>
+            </a>
+            <!-- Category -->
+            <a [routerLink] = "['/productos']" routerLinkActive="active" class="d-block cs-image-scale cs-heading-highlight text-center">
+              <div class="cs-image-inner mb-3 rounded">
+                <img src="../../assets/img/ecommerce/home/categories/02.jpg" alt="Men’s">
+              </div>
+              <h3 class="h5 mb-1">Accesorios</h3>
+            </a>
+            <!-- Category -->
+            <a [routerLink] = "['/productos']" routerLinkActive="active" class="d-block cs-image-scale cs-heading-highlight text-center">
+              <div class="cs-image-inner mb-3 rounded">
+                <img src="../../assets/img/ecommerce/home/categories/03.jpg" alt="Kids'">
+              </div>
+              <h3 class="h5 mb-1">Otros</h3>
+            </a> 
+          </div>
+        </div>
+    </section>
+    
+
+    <!-- New arrivals -->
+    <section class="container-fluid px-xl-grid-gutter mt-5 mb-3 mb-sm-4 mt-md-0 mb-lg-5 py-5 py-lg-6">
+        <div class="text-center mb-5 pb-2">
+          <h2 class="h1">Nuestro inventario</h2>
+          <p class="font-size-lg text-muted mb-1">
+            Echa un vistazo a nuestras últimas actualizaciones dentro del catalogo de inventario.</p>
+          <a [routerLink] = "['/productos']" class="font-size-lg">
+            Ver la colección aquí </a>
+        </div>
+
+        <!-- Product carousel -->
+        <div class="cs-carousel cs-nav-outside">
+          <div class="cs-carousel-inner cs-carousel-inner-three" data-carousel-options='{
+            
+          }'>
+
+            <!-- Item -->
+            <div *ngFor="let item of new_productos">
+              <div class="card card-product">
+                <div class="card-product-img">
+                  <a [routerLink] = "['/productos/',item.slug]" class="card-img-top">
+                    <img [src]="url + 'obtener_portada/'+ item.portada" alt="Product image">
+                  </a>
+                  <div class="card-product-widgets-top">
+                    <div class="star-rating">
+                      <i class="sr-star cxi-star-filled active"></i>
+                      <i class="sr-star cxi-star-filled active"></i>
+                      <i class="sr-star cxi-star-filled active"></i>
+                      <i class="sr-star cxi-star-filled active"></i>
+                      <i class="sr-star cxi-star-filled active"></i>
+                    </div>
+                  </div>
+                  <div class="card-product-widgets-bottom">
+                    <a [routerLink] = "['/productos/',item.slug]" class="btn-wishlist ml-auto" data-toggle="tooltip" data-placement="left" title="Add to wishlist"></a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-product-title text-truncate mb-2">
+                    <a class="nav-link">{{item.titulo}}</a>
+                  </h3>
+                  <div class="d-flex align-items-center">
+                    <span class="h5 d-inline-block mb-0">S/.{{item.precio}}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+    </section>
+
+     <!-- Trending products (carousel) -->
+    <section class="py-5" style="background-color: #e5e8ed;">
+        <div class="container my-lg-2 py-2 py-md-4">
+          <div class="d-flex align-items-center justify-content-between pb-sm-1 mb-5">
+            <h2 class="h1 mb-0">Articulos mas requeridos</h2>
+            <div class="tns-custom-controls cs-controls-inverse" id="custom-controls-trending" tabindex="0">
+              <button type="button" data-controls="prev" tabindex="-1">
+                <i class="cxi-arrow-left"></i>
+              </button>
+              <button type="button" data-controls="next" tabindex="-1">
+                <i class="cxi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cs-carousel pb-2">
+            <div class="cs-carousel-inner cs-carousel-inner-four" data-carousel-options='{
+              
+            }'>
+
+              <!-- Item -->
+              <div *ngFor="let item of mas_vendidos">
+                <div class="card card-product mx-auto">
+                  <div class="card-product-img">
+                    <a [routerLink] = "['/productos/',item.slug]" class="card-img-top">
+                      <img [src]="url + 'obtener_portada/'+ item.portada" alt="Product image">
+                    </a>
+                    <div class="card-product-widgets-top">
+                      <div class="star-rating ml-auto">
+                        <i class="sr-star cxi-star-filled active"></i>
+                        <i class="sr-star cxi-star-filled active"></i>
+                        <i class="sr-star cxi-star-filled active"></i>
+                        <i class="sr-star cxi-star-filled active"></i>
+                        <i class="sr-star cxi-star-filled active"></i>
+                      </div>
+                    </div>
+                    <div class="card-product-widgets-bottom">
+                      <a href="#" class="btn-wishlist ml-auto" data-toggle="tooltip" data-placement="left" title="Add to wishlist"></a>
+                    </div>
+                  </div>
+                  <div class="card-body bg-0 pb-2">
+                    <h3 class="card-product-title text-truncate mb-2">
+                      <a [routerLink] = "['/productos/',item.slug]" class="nav-link">{{item.titulo}}</a>
+                    </h3>
+                    <div class="d-flex align-items-center">
+                        <span class="h5 d-inline-block mb-0">S/.{{item.precio}}</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center pt-4 pt-md-5">
+            <a [routerLink] = "['/productos']" class="btn btn-primary btn-lg">Ver productos</a>
+          </div>
+        </div>
+    </section>
+
+    <!-- Popular categories -->
+    <section class="container mt-1 mb-3 my-sm-4 py-5 py-lg-6">
+        <h2 class="h1 mb-5 pb-3 text-center">Categorias</h2>
+        <div class="cs-carousel cs-nav-outside">
+          <div class="cs-carousel-inner cs-carousel-inner-five" data-carousel-options='{
+            
+          }'>
+
+            <!-- Category -->
+            <div class="pb-2" *ngFor="let item of categorias">
+              <a [routerLink] = "['/productos/categoria/',item.titulo.toLowerCase()]" class="d-block cs-image-scale cs-heading-highlight text-center">
+                <div class="cs-image-inner rounded-circle mx-auto mb-4" style="max-width: 180px;">
+                  <img [src]="item.portada" alt="Category image">
+                </div>
+                <h3 class="h5 mb-3">{{item.titulo}}</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+<app-footer></app-footer>
