@@ -15,7 +15,7 @@ pipeline {
         stage('install'){
             steps {
                 git branch: 'develop', url: 'https://github.com/RicardoG06/InvFrontend.git'
-                dir('back'){
+                dir('tienda'){
                     sh 'npm install'
                 }
             }
@@ -23,7 +23,7 @@ pipeline {
 
         stage('build'){
             steps {
-                dir('back'){
+                dir('tienda'){
                     script {
                         try{
                             sh 'docker stop ${container_name}'
