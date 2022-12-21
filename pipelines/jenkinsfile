@@ -5,9 +5,9 @@ pipeline {
     }
 
     parameters {
-        string(name: 'container_name', defaultValue: 'fervent_cohen' , description: 'Nombre contenedor de docker')
-        string(name: 'image_name', defaultValue: 'jenkins/jenkins' , description: 'Nombre imagen docker')
-        string(name: 'tag_image', defaultValue: 'latest' , description: 'Tag de la imagen de la pagina')
+        string(name: 'container_name', defaultValue: 'pagina_web' , description: 'Nombre contenedor de docker')
+        string(name: 'image_name', defaultValue: 'pagina_imagen' , description: 'Nombre imagen docker')
+        string(name: 'tag_image', defaultValue: 'lts' , description: 'Tag de la imagen de la pagina')
         string(name: 'container_port', defaultValue: '80' , description: 'Puerto que usa el contenedor')
     }
 
